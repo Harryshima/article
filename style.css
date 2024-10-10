@@ -1,0 +1,132 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container and Section Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    padding: 40px 0;
+    text-align: center; /* Centers content */
+}
+
+/* Title box styling (matching navbar style) */
+.title-box {
+    background-color: #35424a; /* Dark background for the title box */
+    color: white; /* White text */
+    padding: 10px; /* Padding around the title */
+    border-radius: 10px; /* Match navbar border radius */
+    text-align: center; /* Center the title text */
+    margin-bottom: 20px; /* Space between title box and image */
+}
+
+.content-wrapper {
+    display: block;
+    text-align: center; /* Centers the content inside the wrapper */
+}
+
+.article-image {
+    width: 50%; /* Adjust image width for better centering */
+    max-height: 300px; /* Sets a maximum height for images */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+    margin: 0 auto 20px; /* Centers the image and adds space below */
+    border-radius: 10px;
+}
+
+h2 {
+    color: #e7f4fc;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 90%; /* Limits the width of paragraphs for better readability */
+    line-height: 1.8;
+}
+
+/* Navbar Styling */
+.navbar {
+    text-align: center;
+    background: #35424a;
+    color: white;
+    padding: 20px;
+}
+
+.navbar h1 {
+    font-weight: 600;
+}
+
+.navbar p {
+    font-weight: 300;
+}
+
+/* Navigation Bar Styling */
+.nav {
+    display: flex;
+    justify-content: center;
+    background: #f4f4f4;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #35424a;
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition */
+    padding: 5px 10px; /* Add padding for clickable area */
+    border-radius: 5px; /* Round corners for better look */
+}
+
+/* Hover effect for navbar links */
+.nav a:hover {
+    color: white; /* Change text color on hover */
+    background-color: #35424a; /* Dark background on hover */
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #35424a;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #f4f4f4;
+}
+
+
+
+
+
+
